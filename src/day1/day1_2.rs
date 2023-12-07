@@ -1,11 +1,10 @@
-use std::collections::HashMap;
 use std::fs;
 
 pub fn day1_2() {
     let input: String = fs::read_to_string("src/day1/input.txt")
         .expect("Should have been able to read the file");
 
-    let map: HashMap<&str, &str> = HashMap::from([
+    let map: Vec<(&str, &str)> = Vec::from([
         ("one", "o1e"),
         ("two", "t2o"),
         ("three", "th3ee"),
