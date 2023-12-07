@@ -44,5 +44,5 @@ pub fn day1_2() {
         })
         .sum();
 
-    println!("{result}");
+    println!("{}", result);
 }
